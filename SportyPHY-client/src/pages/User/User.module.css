@@ -1,0 +1,13 @@
+.userlayout{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+    .userlayout{
+        flex-direction: column;
+    }
+    .rightComp{
+        width:80%;
+    }
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --grey-0: #ffffff;
+  --grey-1: #f6f6f6;
+  --grey-2: #f0f0f0;
+  --grey-3: #e0e0e0;
+  --grey-4: #c2c2c2;
+  --grey-5: #a3a3a3;
+  --grey-6: #858585;
+  --grey-7: #666666;
+  --grey-8: #4d4d4d;
+  --grey-9: #dcdcdc;
+  --grey-10: #333333;
+  --grey-11: #1a1a1a;
+  --grey-12: #0a0a0a;
+  --grey-13: #0a0a0a;
+  --grey-14: #000000;
+  --grey-hover: rgba(255, 255, 255, 0.08);
+  --grey-hover-text: rgba(255, 255, 255, 0.4);
+
+  --primary-1: #e6fbff;
+  --primary-2: #ccf7fe;
+  --primary-3: #99eefd;
+  --primary-4: #66e6fc;
+  --primary-5: #33ddfb;
+  --primary-6: #00d5fa;
+  --primary-7: #00a0bc;
+  --primary-8: #006b7d;
+  --primary-9: #00353f;
+  --primary-10: #001519;
+
+  --font-mono: "Roboto Mono", monospace;
+  --font-x-small: 1.2rem;
+  --font-small: 1.4rem;
+  --font-medium: 1.6rem;
+  --font-large: 1.8rem;
+  --font-xx-large: 3.6rem;
+  --font-xxl-large: 7.2rem;
+  --transition: all 0.125s linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--grey-13);
+}
+Loader {
+  margin: 0;
+}
+
+#profile-pic {
+  cursor: pointer;
+  border-bottom: 0.2rem solid #d1d1d4;
+  background: none;
+  padding: 1rem;
+  padding-left: 2.4rem;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+}
+
+#profile-pic:active,
+#profile-pic:focus,
+#profile-pic:hover {
+  border-bottom-color: #6a679e;
+}
+
+#profile-pic::-webkit-file-upload-button {
+  display: none;
+}

@@ -1,0 +1,24 @@
+.headerAndSide {
+  display: grid;
+  grid-template-columns: 4fr 1.5fr;
+}
+/* .inviteUsers {
+  overflow-x: hidden;
+  overflow-y: scroll;
+} */
+
+.partition {
+  position: fixed;
+  width: 100vw;
+  height: 2px;
+  background-color: #e0e0e0;
+}
+.padding2 {
+  padding: 2rem 2rem 0 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerAndSide {
+    grid-template-columns: 1fr;
+  }
+}

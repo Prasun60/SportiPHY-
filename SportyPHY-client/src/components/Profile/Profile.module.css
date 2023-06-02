@@ -1,0 +1,106 @@
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin:2rem;
+    color:white;
+    background-color: #151515;
+}
+.picname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center; 
+}
+.settings{
+    font-size: 1.5rem;
+    transform: translateY(0.5rem);
+}
+.nameRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;   
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.avatar{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+.divider{
+    width:100%;
+    height: 1px;
+    background-color: var(--grey-7);
+    margin: 2rem 0;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.location , .interests{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.interests{
+    margin-top: 1.5rem;
+}
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+.locationText , .interestsText{
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+}
+.whoViewed , .impressions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.whoViewedText,.impressionsText{
+    font-size: 1.1rem;
+}
+.socialProfileText{
+    font-size: var(--font-small);
+}
+.socialProfileIcons{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.allinterests{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.tag{
+    background-color: #252525;
+    padding:0.8rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 920px){
+    .profileCard{
+        width: auto;
+        margin-right:2rem;
+    }
+}

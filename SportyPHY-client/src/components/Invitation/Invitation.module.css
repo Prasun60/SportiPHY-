@@ -1,0 +1,68 @@
+.container {
+  background-color: #212121;
+  padding: 20px;
+  margin: 2rem 0 2rem 2rem;
+  color: white;
+  border-radius: 1rem;
+  margin-right: 2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #303030;
+  color: #ffffff;
+  border-radius: 1rem;
+}
+
+.userList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.userItem {
+  background-color: #303030;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userItem span {
+  display: block;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name{
+  font-size: 1.4rem;
+  margin:1rem;
+}
+.email{
+  font-size: 1.2rem;
+  font-style: italic;
+  margin:1rem;
+}
+.inviteButton {
+  background-color: #252628;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 1rem;
+}
+.inviteButton:hover{
+  background-color: #212121;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 2rem;
+  }
+}
