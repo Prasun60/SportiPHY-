@@ -87,7 +87,7 @@ To start using Sporty-PHY, you will need to run both the frontend and backend co
 4. Start the backend server:
 
    ```
-   npm start
+   node server.js
    ```
 
    The backend server will be running on the specified port.
